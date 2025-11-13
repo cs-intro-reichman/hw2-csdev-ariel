@@ -21,7 +21,7 @@ else {
 else {
     hours_updated = String.valueOf(hours1); }
 
-    System.out.println(hours1 + ":" + minutes_updated);
+    System.out.println(hours_updated + ":" + minutes_updated);
     //System.out.println("Hours: " + hours);
     //System.out.println("Minutes: " + minutes);
     //System.out.println("Minutes to add: " + minutesToAdd);

@@ -20,10 +20,10 @@ public class Cheers {
         while (printTimes > 0 && i < length) {
             char c = word.charAt(i);
             if (special_c.indexOf(c) != -1) {
-                System.out.println("Give me an: " + c + "!");
+                System.out.println("Give me an " + c + ": " + c + "!");
             }
             else {
-               System.out.println("Give me a: " + c + "!"); 
+               System.out.println("Give me a " + c + ": " + c + "!"); 
             }
             i += 1;
         }
