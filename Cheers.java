@@ -17,13 +17,13 @@ public class Cheers {
         String special_c = "AEFHILMNORSX";
 
         // print by characters
-        while (printTimes > 0 && i < length) {
+        while (i < length) {
             char c = word.charAt(i);
             if (special_c.indexOf(c) != -1) {
                 System.out.println("Give me an " + c + ": " + c + "!");
             }
             else {
-               System.out.println("Give me a " + c + ": " + c + "!"); 
+               System.out.println("Give me a  " + c + ": " + c + "!"); 
             }
             i += 1;
         }
