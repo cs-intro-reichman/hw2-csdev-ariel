@@ -18,5 +18,7 @@ public class TestRandom {
 
         System.out.println("> 0.5:  " + high + " times");
         System.out.println("<= 0.5: " + low + " times");
+        double ratio = (double) high / low;
+        System.out.println("Ratio: " + ratio);
 	}
 }
